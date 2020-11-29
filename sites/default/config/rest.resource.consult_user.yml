@@ -1,0 +1,19 @@
+uuid: 27e59bdb-e4cd-4011-86a1-47b5f7b48505
+langcode: es
+status: true
+dependencies:
+  module:
+    - basic_auth
+    - serialization
+    - user
+    - user_api
+id: consult_user
+plugin_id: consult_user
+granularity: method
+configuration:
+  GET:
+    supported_formats:
+      - json
+    supported_auth:
+      - basic_auth
+      - cookie

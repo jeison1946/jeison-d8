@@ -1,0 +1,3 @@
+users_d8_main:
+  js:
+    lib/js/validateInpust.js: {}

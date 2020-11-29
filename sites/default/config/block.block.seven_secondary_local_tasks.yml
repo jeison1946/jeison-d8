@@ -1,0 +1,22 @@
+uuid: f823c2ee-1f73-4ef1-8907-6ae8b5ee4499
+langcode: es
+status: true
+dependencies:
+  theme:
+    - seven
+_core:
+  default_config_hash: QeZBeCilQfeET3GeW6ZtJkEiwROADTZktFgKWwPieD4
+id: seven_secondary_local_tasks
+theme: seven
+region: pre_content
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Solapas secundarias'
+  provider: core
+  label_display: '0'
+  primary: false
+  secondary: true
+visibility: {  }

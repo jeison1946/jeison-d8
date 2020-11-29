@@ -1,0 +1,7 @@
+users_d8.home:
+  path: 'home'
+  defaults:
+    _controller: '\Drupal\user_api\Controller\ViewUsers::view'
+    _title: 'Home'
+  requirements:
+    _permission: 'access content'

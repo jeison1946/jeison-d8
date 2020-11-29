@@ -1,0 +1,4 @@
+type: module
+name: Users Api
+description: 'Modulo para consultar usuarios'
+core: 8.x
